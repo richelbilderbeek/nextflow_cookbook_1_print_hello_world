@@ -99,7 +99,15 @@ How this repo was created:
 nf-core create --name printhelloworld --description "Print 'Hello World'" --author "Richèl J.C. Bilderbeek" --plain --outdir nextflow_cookbook_1_print_hello_world
 ```
 
+After creating a GitHub repo, do this:
+
 ```
 git remote add origin git@github.com:richelbilderbeek/nextflow_cookbook_1_print_hello_world.git
 git push --all origin
+```
+
+How to run prettier:
+
+```
+npx prettier --write .
 ```
