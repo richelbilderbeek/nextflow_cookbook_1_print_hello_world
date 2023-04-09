@@ -1,11 +1,11 @@
 process say_hello {
-  debug true
+    debug true
 
-  '''
-  echo "Hello world"
-  '''
+    '''
+    echo "Hello world"
+    '''
 }
 
 workflow {
-  say_hello()
+    say_hello()
 }
